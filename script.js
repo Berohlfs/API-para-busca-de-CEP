@@ -13,7 +13,7 @@ const search = async ()=>{
         ps[1].innerText = `Bairro: ${endereco.bairro}`
         ps[2].innerText = `Cidade: ${endereco.localidade}`
     }catch(erro){
-        alert(erro)
+        alert(`Erro no servidor de busca: \n\n${erro}`)
         console.log(erro)
     }
 }
